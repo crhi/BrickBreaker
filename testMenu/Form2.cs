@@ -6,11 +6,13 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace testMenu
 {
     public partial class Form2 : Form
     {
+
         public Form2()
         {
             InitializeComponent();
@@ -18,7 +20,13 @@ namespace testMenu
 
         private void brickBreaker1_Click(object sender, EventArgs e)
         {
-
+            
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            this.brickBreakerControl.Select();
+        }
+
     }
 }

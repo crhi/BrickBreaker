@@ -1,0 +1,8 @@
+C:\Users\Christophe\documents\visual studio 2010\Projects\testMenu\testMenu\bin\Release\testMenu.exe
+C:\Users\Christophe\documents\visual studio 2010\Projects\testMenu\testMenu\bin\Release\testMenu.pdb
+C:\Users\Christophe\documents\visual studio 2010\Projects\testMenu\testMenu\obj\x86\Release\testMenu.Form1.resources
+C:\Users\Christophe\documents\visual studio 2010\Projects\testMenu\testMenu\obj\x86\Release\testMenu.Form2.resources
+C:\Users\Christophe\documents\visual studio 2010\Projects\testMenu\testMenu\obj\x86\Release\testMenu.Properties.Resources.resources
+C:\Users\Christophe\documents\visual studio 2010\Projects\testMenu\testMenu\obj\x86\Release\testMenu.csproj.GenerateResource.Cache
+C:\Users\Christophe\documents\visual studio 2010\Projects\testMenu\testMenu\obj\x86\Release\testMenu.exe
+C:\Users\Christophe\documents\visual studio 2010\Projects\testMenu\testMenu\obj\x86\Release\testMenu.pdb

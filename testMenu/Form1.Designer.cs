@@ -33,8 +33,8 @@
             this.IDText = new System.Windows.Forms.Label();
             this.IDText2 = new System.Windows.Forms.Label();
             this.IDBox2 = new System.Windows.Forms.TextBox();
-            this.brick1 = new testMenu.Brick();
-            this.brick3 = new testMenu.Brick();
+            this.brick1 = new testMenu.BrickBreaker();
+            this.brick2 = new testMenu.BrickBreaker();
             this.SuspendLayout();
             // 
             // ConfirmationButton
@@ -88,21 +88,19 @@
             this.brick1.TabIndex = 9;
             this.brick1.Text = "brick1";
             // 
-            // brick3
+            // brick2
             // 
-            this.brick3.Location = new System.Drawing.Point(12, 256);
-            this.brick3.Name = "brick3";
-            this.brick3.Size = new System.Drawing.Size(745, 194);
-            this.brick3.TabIndex = 11;
-            this.brick3.Text = "brick3";
+            this.brick2.Location = new System.Drawing.Point(12, 253);
+            this.brick2.Name = "brick2";
+            this.brick2.Size = new System.Drawing.Size(745, 183);
+            this.brick2.TabIndex = 10;
+            this.brick2.Text = "brick2";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(769, 462);
-            this.Controls.Add(this.brick3);
-            this.Controls.Add(this.brick1);
             this.Controls.Add(this.IDBox2);
             this.Controls.Add(this.IDText2);
             this.Controls.Add(this.IDText);
@@ -111,6 +109,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -123,8 +122,8 @@
         private System.Windows.Forms.Label IDText;
         private System.Windows.Forms.Label IDText2;
         private System.Windows.Forms.TextBox IDBox2;
-        private Brick brick1;
-        private Brick brick3;
+        private BrickBreaker brick1;
+        private BrickBreaker brick2;
     }
 }
 

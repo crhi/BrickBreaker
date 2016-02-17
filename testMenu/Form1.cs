@@ -20,7 +20,7 @@ namespace testMenu
 
         private void ConfirmationButton_Click(object sender, EventArgs e)
         {
-            if (IDBox1.Text == "crhi" && IDBox2.Text == "12345")
+            if (IDBox1.Text == "" && IDBox2.Text == "")
             {
                 Form2 frm = new Form2();
                 this.Hide();
@@ -32,6 +32,11 @@ namespace testMenu
             {
                 MessageBox.Show("Erreur d'identifiant");
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
